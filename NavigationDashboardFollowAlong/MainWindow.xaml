@@ -14,10 +14,18 @@
         WindowStyle="None"
         Background="Transparent">
 
+
+
+
+
+    <!--TODO - Clean up this mess!-->
+
+
+
     <Window.DataContext>
         <vm:NavigationVM/>
     </Window.DataContext>
-    
+
 
     <Grid>
 
@@ -199,5 +207,5 @@
                 Style="{StaticResource ExitApp}"
                 Click="CloseApp_Click"/>
 
-        </Grid>
+    </Grid>
 </Window>
